@@ -2,14 +2,22 @@
 
 * ### 1. Install/Configure 5 VM's (I used Proxmox/Ubuntu 18.04 VM's)
 
-* ### 2. Firewall Config 
+* #### Enable Passwordless Sudo
+
+```
+sudo nano /etc/sudoers
+Find the line which contains #includedir /etc/sudoers.d
+Below that line add: username ALL=(ALL) NOPASSWD: ALL
+```
+
+* #### Firewall Config 
 
 ```
 ufw enable
 ufw allow 22,80,443,3000,996,7946,4789,2377/tcp; ufw allow 7946,4789,2377/udp;
 ```
 
-* ### 3. Set Host 
+* #### Set Host 
 
 ```
 export USE_HOSTNAME=dog.example.com
@@ -18,7 +26,7 @@ echo $USE_HOSTNAME > /etc/hostname
 hostname -F /etc/hostname
 ```
 
-* ### 4. Install Docker
+* #### Install Docker
 
 ```
 curl -fsSL get.docker.com -o get-docker.sh
