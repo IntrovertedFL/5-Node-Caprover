@@ -1,3 +1,9 @@
+# Configure DNS
+
+```
+Add dns "a" record ( *.develop.tribestudios.io )
+```
+
 # Install/Configure 5 VM's (I used Proxmox/Ubuntu 18.04 VM's)
 
 * #### Enable Passwordless Sudo (optional)
