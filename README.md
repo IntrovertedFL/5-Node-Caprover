@@ -1,6 +1,6 @@
 # Install/Configure 5 VM's (I used Proxmox/Ubuntu 18.04 VM's)
 
-* #### Enable Passwordless Sudo
+* #### Enable Passwordless Sudo (optional)
 
 ```
 sudo nano /etc/sudoers
@@ -24,7 +24,7 @@ echo $USE_HOSTNAME > /etc/hostname
 hostname -F /etc/hostname
 ```
 
-* #### Set Host File (/etc/hosts)
+* #### Configure Host File (/etc/hosts)
 
 ```
 127.0.0.1       localhost
