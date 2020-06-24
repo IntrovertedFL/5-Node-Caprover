@@ -24,6 +24,17 @@ echo $USE_HOSTNAME > /etc/hostname
 hostname -F /etc/hostname
 ```
 
+* #### Set Host File (/etc/hosts)
+
+```
+127.0.0.1       localhost
+173.208.139.88  node0.tribestudios.io   node0
+173.208.139.89  node1.tribestudios.io   node1
+173.208.139.91  node2.tribestudios.io   node2
+173.208.139.92  node3.tribestudios.io   node3
+173.208.139.93  node4.tribestudios.io   node4
+```
+
 * #### Install Docker
 
 ```
