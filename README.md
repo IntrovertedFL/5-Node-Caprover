@@ -4,14 +4,13 @@
 Add dns "a" record ( *.develop.tribestudios.io )
 ```
 
-# Install/Configure 5 VM's (I used Proxmox/Ubuntu 18.04 VM's)
+# Install/Configure 5 VM's (This example is usingUbuntu 16.04LTS)
 
-* #### Enable Passwordless Sudo (optional)
+* #### Enable root login over SSH (Not needed on single node install)
 
 ```
-sudo nano /etc/sudoers
-Find the line which contains #includedir /etc/sudoers.d
-Below that line add: username ALL=(ALL) NOPASSWD: ALL
+sudo nano /etc/ssh/sshd_config
+PermitRootLogin without-password
 ```
 
 * #### Firewall Config 
