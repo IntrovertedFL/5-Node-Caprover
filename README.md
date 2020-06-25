@@ -17,8 +17,7 @@ CapRover is an extremely easy to use app/database deployment & web server manage
 
 # Installing Caprover
 
-#### 1. Configure wildcard DNS record 
-
+#### 1. Configure wildcard DNS record [More Info](https://en.wikipedia.org/wiki/Wildcard_DNS_record)
 ```
 *.develop.yourdomain.com
 ```
