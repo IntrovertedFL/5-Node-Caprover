@@ -91,7 +91,7 @@ Enter your domain [develop.techguytn.com] and make sure setting "A"
 Click Search. 
 ```
 
-* #### Deploy Caprover (On Master Node)
+* #### Deploy Caprover (On Node0)
 
 ```
 docker run -p 80:80 -p 443:443 -p 3000:3000 -v /var/run/docker.sock:/var/run/docker.sock -v /captain:/captain caprover/caprover
@@ -109,13 +109,13 @@ caprover serversetup
 ```
 have you already started CapRover container on your server? (Y/n) Y
 IP address of your server: 173.208.139.88
-CapRover server root domain: develop.tribestudios.io
+CapRover server root domain: develop.techguytn.com
 new CapRover password (min 8 characters): [hidden]
 enter new CapRover password again: [hidden]
 "valid" email address to get certificate and enable HTTPS: mrholttn@gmail.com
 / Enabling SSL... Takes a few seconds...
 CapRover machine name, with whom the login credentials are stored locally: (captain-01)
-CapRover server setup completed: it is available as captain-01 at https://captain.develop.tribestudios.io
+CapRover server setup completed: it is available as captain-01 at https://captain.develop.techguytn.com
 
 For more details and docs see CapRover.com
 ```
