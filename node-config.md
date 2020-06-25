@@ -59,3 +59,5 @@ CHANNEL=stable sh get-docker.sh
 
 rm get-docker.sh
 ```
+
+# 2. [Configure Machines](https://github.com/TechGuyTN/5-Node-Caprover-Swarm/blob/master/node-config.md)
