@@ -1,5 +1,20 @@
 # 5 Node Caprover Install
 
+#### What is Caprover?
+
+CapRover is an extremely easy to use app/database deployment & web server manager for your NodeJS, Python, PHP, ASP.NET, Ruby, MySQL, MongoDB, Postgres, WordPress (and etc...) applications! It's blazingly fast and very robust as it uses Docker, nginx, LetsEncrypt and NetData under the hood behind its simple-to-use interface.
+
+* #### Caprover Features
+
+```
+* ✔ CLI for automation and scripting
+* ✔ Web GUI for ease of access and convenience
+* ✔ No lock-in! Remove CapRover and your apps keep working!
+* ✔ Docker Swarm under the hood for containerization and clustering
+* ✔ Nginx (fully customizable template) under the hood for load-balancing
+* ✔ Let's Encrypt under the hood for free SSL (HTTPS)
+```
+
 #### 1. Configure DNS "a" record [More Info](https://caprover.com/docs/get-started.html)
 
 ```
