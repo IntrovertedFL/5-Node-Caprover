@@ -1,6 +1,6 @@
 # 5 Node Caprover Install
 
-#### 1. Configure DNS "a" record 
+#### 1. Configure DNS "a" record [More Info](https://caprover.com/docs/get-started.html)
 
 ```
 Add dns "a" record ( *.develop.techguytn.com )
