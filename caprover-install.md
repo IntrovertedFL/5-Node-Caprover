@@ -26,3 +26,5 @@ CapRover server setup completed: it is available as captain-01 at https://captai
 
 For more details and docs see CapRover.com
 ```
+
+# [4. Add Worker Nodes](https://github.com/TechGuyTN/5-Node-Caprover-Swarm/blob/master/add-nodes.md)
