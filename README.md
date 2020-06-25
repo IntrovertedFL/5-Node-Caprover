@@ -17,10 +17,20 @@ nano /etc/ssh/sshd_config
 PermitRootLogin yes
 ```
 
-* #### Generate ssh key 
+* #### Generate ssh key (only on node0) 
 
 ```
 ssh-keygen
+```
+
+* #### Copy ssh keys to node 2,3,4,5
+
+```
+ssh-copy-id root@173.208.139.88
+ssh-copy-id root@173.208.139.89
+ssh-copy-id root@173.208.139.91
+ssh-copy-id root@173.208.139.92
+ssh-copy-id root@173.208.139.93
 ```
 
 
