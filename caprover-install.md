@@ -13,7 +13,7 @@ ssh-copy-id root@173.208.139.92
 ssh-copy-id root@173.208.139.93
 ```
 
-* #### Secure root login over SSH (Not needed on single node install)
+* #### Secure root login over SSH 
 
 !! Make sure you are able to login to nodes 2,3,4,5 with ssh key before securing them !!
 
@@ -23,8 +23,6 @@ PermitRootLogin without-password
 Also  find "#PasswordAuthentication yes"
 change too "PasswordAuthentication no"
 ```
-
-
 
 * #### Deploy Caprover (On Node0)
 
