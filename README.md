@@ -1,6 +1,6 @@
 # Configure DNS
 
-* #### Configure DNS "a" record (
+* #### Configure DNS "a" record 
 
 ```
 Add dns "a" record ( *.develop.techguytn.com )
@@ -28,7 +28,7 @@ sudo nano /etc/ssh/sshd_config
 PermitRootLogin without-password
 ```
 
-* #### Firewall Config 
+* #### Firewall Config (Using default ssh port 22)
 
 ```
 ufw enable
