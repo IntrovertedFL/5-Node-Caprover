@@ -26,7 +26,7 @@ ssh-keygen
 
 * #### Secure root login over SSH (Not needed on single node install)
 
-!! Make sure that you are able to login with the ssh key you created !!
+!! Make sure that you are able to login to all additional nodes with the ssh key you created before securing nodes 2,3,4,5 !!
 
 ```
 sudo nano /etc/ssh/sshd_config
