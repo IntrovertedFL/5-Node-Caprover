@@ -8,7 +8,7 @@ Add dns "a" record ( *.develop.techguytn.com )
 
 # Install/Configure 5 VM's (Ubuntu 16.04LTS)
 
-* #### Enable root login (Not needed on single node install)
+* #### Enable root login on nodes 2,3,4,5 (Not needed on single node install)
 
 ```
 sudo su -
