@@ -6,7 +6,7 @@
 apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && apt-get install qemu-guest-agent -y
 ```
 
-* #### Enable root login on nodes 2,3,4,5 (Not needed on single node install)
+* #### Enable root login on nodes
 
 ```
 sudo su -
@@ -45,7 +45,7 @@ nano /etc/hosts
 173.208.139.93  node4.techguytn.com
 ```
 
-* #### Install Docker
+* #### Install Docker 
 
 ```
 curl -fsSL get.docker.com -o get-docker.sh
