@@ -15,6 +15,8 @@ CapRover is an extremely easy to use app/database deployment & web server manage
 * ✔ Let's Encrypt under the hood for free SSL (HTTPS)
 ```
 
+# Installing Caprover
+
 #### 1. Configure DNS "a" record [More Info](https://caprover.com/docs/get-started.html)
 
 ```
