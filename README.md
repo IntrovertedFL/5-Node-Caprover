@@ -17,6 +17,11 @@ nano /etc/ssh/sshd_config
 PermitRootLogin yes
 ```
 
+* #### Generate ssh key 
+
+```
+ssh-keygen
+```
 
 
 * #### Secure root login over SSH (Not needed on single node install)
