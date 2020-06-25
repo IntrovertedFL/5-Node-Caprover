@@ -1,7 +1,9 @@
 # Configure DNS
 
+* #### Configure DNS "a" record (
+
 ```
-Add dns "a" record ( *.develop.tribestudios.io )
+Add dns "a" record ( *.develop.techguytn.com )
 ```
 
 # Install/Configure 5 VM's (Ubuntu 16.04LTS)
@@ -46,11 +48,11 @@ hostname -F /etc/hostname
 
 ```
 127.0.0.1       localhost
-173.208.139.88  node0.tribestudios.io   node0
-173.208.139.89  node1.tribestudios.io   node1
-173.208.139.91  node2.tribestudios.io   node2
-173.208.139.92  node3.tribestudios.io   node3
-173.208.139.93  node4.tribestudios.io   node4
+173.208.139.88  node0.techguytn.com
+173.208.139.89  node1.techguytn.com
+173.208.139.91  node2.techguytn.com
+173.208.139.92  node3.techguytn.com
+173.208.139.93  node4.techguytn.com
 ```
 
 * #### Install Docker
@@ -64,6 +66,14 @@ CHANNEL=stable sh get-docker.sh
 # Remove Docker install script
 rm get-docker.sh
 sudo usermod -aG docker aaron
+```
+
+* #### Check and confirm that DNS record has Propagated 
+
+```
+Visit - https://dnschecker.org/#A
+Enter your domain [develop.techguytn.com] and make sure setting "A"
+Click Search. 
 ```
 
 * #### Deploy Caprover (On Master Node)
