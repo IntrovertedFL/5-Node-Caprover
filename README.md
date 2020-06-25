@@ -4,7 +4,7 @@
 Add dns "a" record ( *.develop.tribestudios.io )
 ```
 
-# Install/Configure 5 VM's (This example is usingUbuntu 16.04LTS)
+# Install/Configure 5 VM's (This example is using Ubuntu 16.04LTS)
 
 * #### Enable root login over SSH (Not needed on single node install)
 
