@@ -1,12 +1,12 @@
 # Install/Configure 5 VM's (Ubuntu 16.04LTS)
 
-* #### Update 
+- #### Update
 
 ```
 apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && apt-get install qemu-guest-agent -y
 ```
 
-* #### Enable root login
+- #### Enable root login
 
 ```
 sudo su -
@@ -15,7 +15,7 @@ nano /etc/ssh/sshd_config
 PermitRootLogin yes
 ```
 
-* #### Firewall Config (Using default ssh port 22)
+- #### Firewall Config (Using default ssh port 22)
 
 ```
 ufw enable
@@ -23,7 +23,7 @@ ufw allow 22,80,443,3000,996,7946,4789,2377/tcp; ufw allow 7946,4789,2377/udp;
 reboot and make sure you can login
 ```
 
-* #### Set Host 
+- #### Set Host
 
 ```
 export USE_HOSTNAME=dog.example.com
@@ -33,20 +33,20 @@ echo $USE_HOSTNAME > /etc/hostname
 hostname -F /etc/hostname
 ```
 
-* #### Configure Host File
+- #### Configure Host File
 
 ```
 nano /etc/hosts
 
 127.0.0.1       localhost
-173.208.139.88  node0.techguytn.com
-173.208.139.89  node1.techguytn.com
-173.208.139.91  node2.techguytn.com
-173.208.139.92  node3.techguytn.com
-173.208.139.93  node4.techguytn.com
+192.168.254.88  node0.techguytn.com
+192.168.254.89  node1.techguytn.com
+192.168.254.91  node2.techguytn.com
+192.168.254.92  node3.techguytn.com
+192.168.254.93  node4.techguytn.com
 ```
 
-* #### Install Docker 
+- #### Install Docker
 
 ```
 curl -fsSL get.docker.com -o get-docker.sh
