@@ -27,8 +27,9 @@ reboot and make sure you can login
 
 ```
 export USE_HOSTNAME=dog.example.com
-Set up the server hostname
+
 echo $USE_HOSTNAME > /etc/hostname
+
 hostname -F /etc/hostname
 ```
 
