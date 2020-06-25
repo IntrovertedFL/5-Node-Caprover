@@ -39,11 +39,11 @@ hostname -F /etc/hostname
 nano /etc/hosts
 
 127.0.0.1       localhost
-192.168.254.88  node0.techguytn.com
-192.168.254.89  node1.techguytn.com
-192.168.254.91  node2.techguytn.com
-192.168.254.92  node3.techguytn.com
-192.168.254.93  node4.techguytn.com
+192.168.254.88  node0.yourdomain.com
+192.168.254.89  node1.yourdomain.com
+192.168.254.91  node2.yourdomain.com
+192.168.254.92  node3.yourdomain.com
+192.168.254.93  node4.yourdomain.com
 ```
 
 - #### Install Docker
