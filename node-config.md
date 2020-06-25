@@ -1,12 +1,12 @@
 # Install/Configure 5 VM's (Ubuntu 16.04LTS)
 
-* #### Update all nodes
+* #### Update 
 
 ```
 apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && apt-get install qemu-guest-agent -y
 ```
 
-* #### Enable root login on nodes
+* #### Enable root login
 
 ```
 sudo su -
@@ -32,7 +32,7 @@ echo $USE_HOSTNAME > /etc/hostname
 hostname -F /etc/hostname
 ```
 
-* #### Configure Host File (On all nodes)
+* #### Configure Host File
 
 ```
 nano /etc/hosts
