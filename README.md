@@ -4,7 +4,7 @@
 
 CapRover is an extremely easy to use app/database deployment & web server manager for your NodeJS, Python, PHP, ASP.NET, Ruby, MySQL, MongoDB, Postgres, WordPress (and etc...) applications! It's blazingly fast and very robust as it uses Docker, nginx, LetsEncrypt and NetData under the hood behind its simple-to-use interface.
 
-* #### Caprover Features
+#### Caprover Features
 
 ```
 ✔ CLI for automation and scripting
