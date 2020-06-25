@@ -48,6 +48,7 @@ change too "PasswordAuthentication no"
 ```
 ufw enable
 ufw allow 22,80,443,3000,996,7946,4789,2377/tcp; ufw allow 7946,4789,2377/udp;
+reboot and make sure you can login
 ```
 
 * #### Set Host 
@@ -59,9 +60,11 @@ echo $USE_HOSTNAME > /etc/hostname
 hostname -F /etc/hostname
 ```
 
-* #### Configure Host File (/etc/hosts)
+* #### Configure Host File (On all nodes)
 
 ```
+nano /etc/hosts
+
 127.0.0.1       localhost
 173.208.139.88  node0.techguytn.com
 173.208.139.89  node1.techguytn.com
