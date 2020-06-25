@@ -4,7 +4,7 @@
 ssh-keygen
 ```
 
-- #### Copy ssh keys to node 2,3,4,5
+- #### Copy ssh key to node 2,3,4,5
 
 ```
 ssh-copy-id root@192.168.254.89
