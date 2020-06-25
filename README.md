@@ -10,6 +10,17 @@ Add dns "a" record ( *.develop.tribestudios.io )
 
 ```
 sudo nano /etc/ssh/sshd_config
+PermitRootLogin yes
+```
+
+
+
+* #### Secure root login over SSH (Not needed on single node install)
+
+!! Make sure that you are able to login with the ssh key you created !!
+
+```
+sudo nano /etc/ssh/sshd_config
 PermitRootLogin without-password
 ```
 
