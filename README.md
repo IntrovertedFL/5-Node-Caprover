@@ -8,6 +8,12 @@ Add dns "a" record ( *.develop.techguytn.com )
 
 # Install/Configure 5 VM's (Ubuntu 16.04LTS)
 
+* #### Generate ssh key (on node0) 
+
+```
+ssh-keygen
+```
+
 * #### Enable root login on nodes 2,3,4,5 (Not needed on single node install)
 
 ```
@@ -17,22 +23,14 @@ nano /etc/ssh/sshd_config
 PermitRootLogin yes
 ```
 
-* #### Generate ssh key (on node0) 
-
-```
-ssh-keygen
-```
-
 * #### Copy ssh keys to node 2,3,4,5
 
 ```
-ssh-copy-id root@173.208.139.88
 ssh-copy-id root@173.208.139.89
 ssh-copy-id root@173.208.139.91
 ssh-copy-id root@173.208.139.92
 ssh-copy-id root@173.208.139.93
 ```
-
 
 * #### Secure root login over SSH (Not needed on single node install)
 
