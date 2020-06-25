@@ -39,6 +39,8 @@ ssh-copy-id root@173.208.139.93
 ```
 sudo nano /etc/ssh/sshd_config
 PermitRootLogin without-password
+Also  find "#PasswordAuthentication yes"
+change too "PasswordAuthentication no"
 ```
 
 * #### Firewall Config (Using default ssh port 22)
