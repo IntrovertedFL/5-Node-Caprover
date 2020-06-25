@@ -8,6 +8,12 @@ Add dns "a" record ( *.develop.techguytn.com )
 
 # Install/Configure 5 VM's (Ubuntu 16.04LTS)
 
+* #### Update all nodes
+
+```
+apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y && apt-get install qemu-guest-agent -y
+```
+
 * #### Generate ssh key (on node0) 
 
 ```
