@@ -17,7 +17,7 @@ nano /etc/ssh/sshd_config
 PermitRootLogin yes
 ```
 
-* #### Generate ssh key (only on node0) 
+* #### Generate ssh key (on node0) 
 
 ```
 ssh-keygen
