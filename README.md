@@ -2,7 +2,7 @@
 
 #### What is Caprover? 
 
-CapRover is an extremely easy to use app/database deployment & web server manager for your NodeJS, Python, PHP, ASP.NET, Ruby, MySQL, MongoDB, Postgres, WordPress (and etc...) applications! It's blazingly fast and very robust as it uses Docker, nginx, LetsEncrypt and NetData under the hood behind its simple-to-use interface. [More Info](https://caprover.com/docs/get-started.html)
+CapRover is an extremely easy to use app/database deployment & web server manager for your NodeJS, Python, PHP, ASP.NET, Ruby, MySQL, MongoDB, Postgres, WordPress (and etc...) applications! It's blazingly fast and very robust as it uses Docker, nginx, LetsEncrypt and NetData under the hood behind its simple-to-use interface. ([More Info](https://caprover.com/docs/get-started.html))
 
 #### Caprover Features
 
@@ -17,7 +17,7 @@ CapRover is an extremely easy to use app/database deployment & web server manage
 
 # Installing Caprover
 
-#### 1. Configure wildcard DNS record [More Info](https://en.wikipedia.org/wiki/Wildcard_DNS_record)
+#### 1. Configure wildcard DNS record ([More Info](https://en.wikipedia.org/wiki/Wildcard_DNS_record))
 ```
 *.develop.yourdomain.com
 ```
