@@ -87,14 +87,6 @@ CHANNEL=stable sh get-docker.sh
 rm get-docker.sh
 ```
 
-* #### Check and confirm that DNS record has Propagated 
-
-```
-Visit - https://dnschecker.org/#A
-Enter your domain [develop.techguytn.com] and make sure setting "A"
-Click Search. 
-```
-
 * #### Deploy Caprover (On Node0)
 
 ```
