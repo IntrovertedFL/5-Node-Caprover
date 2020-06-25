@@ -9,7 +9,9 @@ Add dns "a" record ( *.develop.tribestudios.io )
 * #### Enable root login over SSH (Not needed on single node install)
 
 ```
-sudo nano /etc/ssh/sshd_config
+sudo su -
+passwd (create password for root)
+nano /etc/ssh/sshd_config
 PermitRootLogin yes
 ```
 
