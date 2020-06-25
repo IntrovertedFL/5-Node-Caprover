@@ -26,7 +26,7 @@ change too "PasswordAuthentication no"
 
 - #### Login to caprover dashboard and select cluster
 
-Retrieve private key
+Retrieve private key from node0
 
 ```
 cat ~/.ssh/id_rsa
