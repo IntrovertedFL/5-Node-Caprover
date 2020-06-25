@@ -23,8 +23,8 @@ CapRover is an extremely easy to use app/database deployment & web server manage
 *.develop.yourdomain.com
 ```
 
-#### 2. [Configure Machines](https://github.com/yourdomain/5-Node-Caprover-Swarm/blob/master/node-config.md)
+#### 2. [Configure Machines](https://github.com/TechGuyTN/5-Node-Caprover-Swarm/blob/master/node-config.md)
 
-#### 3. [Caprover Install](https://github.com/yourdomain/5-Node-Caprover-Swarm/blob/master/caprover-install.md)
+#### 3. [Caprover Install](https://github.com/TechGuyTN/5-Node-Caprover-Swarm/blob/master/caprover-install.md)
 
-#### 4. [Add Worker Nodes](https://github.com/yourdomain/5-Node-Caprover-Swarm/blob/master/add-nodes.md)
+#### 4. [Add Worker Nodes](https://github.com/TechGuyTN/5-Node-Caprover-Swarm/blob/master/add-nodes.md)
